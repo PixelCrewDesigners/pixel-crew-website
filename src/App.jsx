@@ -760,8 +760,12 @@ const ContactPage = () => {
                   <input type="email" name="from_email" required placeholder="Email" className="w-full bg-white/5 border border-white/10 rounded-xl md:rounded-2xl px-5 py-3 md:px-6 md:py-4 outline-none transition-all uppercase text-white text-sm md:text-base" />
                 </div>
                 <div className="relative">
-                  <select name="service_type" className="w-full bg-white/5 border border-white/10 rounded-xl md:rounded-2xl px-5 py-3 md:px-6 md:py-4 appearance-none text-gray-400 outline-none uppercase text-white text-sm md:text-base">
-                    <option>NFC Technology</option><option>Printing Solutions</option><option>Photography & Design</option><option>Web Systems</option>
+                  <select name="service_type" className="w-full bg-white/5 border border-white/10 rounded-xl md:rounded-2xl px-5 py-3 md:px-6 md:py-4 appearance-none text-white/50 outline-none uppercase text-sm md:text-base">
+                    <option className="text-black" value="" disabled selected>Select Service Type</option>
+                    <option className="text-black">NFC Technology</option>
+                    <option className="text-black">Printing Solutions</option>
+                    <option className="text-black">Photography & Design</option>
+                    <option className="text-black">Web Systems</option>
                   </select>
                   <ChevronDown size={16} className="absolute right-6 top-1/2 -translate-y-1/2 text-gray-500 pointer-events-none" />
                 </div>
