@@ -286,8 +286,8 @@ const AboutPage = () => {
 
   const founders = [
     { name: "Tharusha Bimsara", role: "Managing Director", img: tharushaImg },
-    { name: "Shehan Viraj", role: "Executive Director – Finance", img: shehanImg },
-    { name: "V Nitharshan", role: "Executive Director – Technology", img: nitharshanImg },
+    { name: "Shehan Viraj", role: "Executive Director – Technology", img: shehanImg },
+    { name: "V Nitharshan", role: "Executive Director – Finance", img: nitharshanImg },
     { name: "Shenal Sachin", role: "Executive Director – Marketing", img: shenalImg },
     { name: "Afzal Ruzly", role: "Executive Director – Creative & Media", img: afzalImg }
   ];
